@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.attribution a {
+  color: #cee3e9;
+  text-decoration: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+  background-color: #1f2632;
+  height: 100vh;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  text-align: center;
+  background-color: #323a49;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.container .advice-number {
+  color: #52ffa8;
+  font-size: 15px;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+.container .advice-text {
+  color: #cee3e9;
+  font-weight: 800;
+  font-size: 22px;
+  margin-top: 20px;
+  letter-spacing: .8px;
+}
+
+.btn {
+  border: none;
+  border-radius: 50%;
+  background-color: #52ffa8;
+  position: absolute;
+  bottom: -28px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 12px 14px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 0 25px #52ffa8;
+          box-shadow: 0 0 25px #52ffa8;
+}
+
+@media screen and (max-width: 430px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .container {
+    width: 350px;
+  }
+  .container .advice-number {
+    font-size: 10px;
+  }
+  .container .advice-text {
+    font-size: 18px;
+  }
+  .btn {
+    padding: 8px 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 250px;
+  }
+  .container .advice-number {
+    font-size: 10px;
+  }
+  .container .advice-text {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
