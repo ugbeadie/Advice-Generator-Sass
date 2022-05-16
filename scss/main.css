@@ -6,18 +6,6 @@
           box-sizing: border-box;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  position: absolute;
-  bottom: 20px;
-}
-
-.attribution a {
-  color: #cee3e9;
-  text-decoration: none;
-}
-
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,6 +77,22 @@ body {
           box-shadow: 0 0 25px #52ffa8;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.attribution span {
+  color: #52ffa8;
+}
+
+.attribution a {
+  color: #cee3e9;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 430px) {
   .desktop {
     display: none;
@@ -116,7 +120,19 @@ body {
 
 @media screen and (max-width: 360px) {
   .container {
-    width: 250px;
+    width: 290px;
+  }
+  .container .advice-number {
+    font-size: 10px;
+  }
+  .container .advice-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+    width: 270px;
   }
   .container .advice-number {
     font-size: 10px;
