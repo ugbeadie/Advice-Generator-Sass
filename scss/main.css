@@ -116,6 +116,10 @@ body {
   .btn {
     padding: 8px 10px;
   }
+  .attribution {
+    position: absolute;
+    bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 360px) {
