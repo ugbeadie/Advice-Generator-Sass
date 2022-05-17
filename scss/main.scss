@@ -91,7 +91,7 @@ body {
         width: 350px;
 
         .advice-number {
-            font-size: 10px;
+            font-size: 12px;
         }
         
         .advice-text {
@@ -110,27 +110,11 @@ body {
 @media screen and (max-width: 360px) {
     .container {
         width: 290px;
-
-        .advice-number {
-            font-size: 10px;
-        }
-        
-        .advice-text {
-            font-size: 18px;
-        }
     }
 }
 
 @media screen and (max-width: 300px) {
     .container {
         width: 270px;
-
-        .advice-number {
-            font-size: 10px;
-        }
-
-        .advice-text {
-            font-size: 18px;
-        }
     }
 }
