@@ -12,7 +12,7 @@ function getAdvice() {
             const advice = adviceData.slip.advice;
 
             adviceId.textContent = adviceNumber;
-            adviceText.innerHTML = advice;
+            adviceText.innerHTML = `${advice}`;
         })
         .catch(error => {
             console.log(error);
